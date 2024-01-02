@@ -20,7 +20,7 @@ For example here i created letter 'A' using just 6 Bezier Curves.
 One can see the points that create each Bezier Curve (small colorful dots)
 
 <p align="center">
-  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/letter_with_points.png" style="width: 400px; height: 400px;"/>
+  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/points.png" style="width: 400px; height: 400px;"/>
 </p>
 
 
