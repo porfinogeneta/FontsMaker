@@ -23,7 +23,7 @@ The editor allows users to:
 Here's an example where the letter 'A' is created using just 6 Bezier Curves. The points that create each Bezier Curve are visible as small colorful dots.
 
 <p align="center">
-  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/letter_with_points.png" width="400px" height="400px"/>
+  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/points.png" style="width: 400px; height: 400px;"/>
 </p>
 
 # Manual
