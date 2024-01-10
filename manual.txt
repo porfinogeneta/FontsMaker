@@ -1,0 +1,45 @@
+# Buttons Descriptions Left to Right
+
+- free points - red points added to canvas when now curve is selected
+- Curve SELECTED - it's highlighted with 'lightblue'
+
+- Clear Points - delete all free points
+- Delete/Draw - mode toggle for deleting curves with LEFT CLICK
+    - buttons says DRAW - you are in DELETE mode
+    - otherwise you are in drawing mode - just LEFT CLICK to add points
+
+- Import - importing curve saved as .txt format (simple python dictionary {curve_tag: [control_points]})
+- Import Background - Import any .png file to redraw it on the canvas using Bezier Curves
+
+- Show - toggle to hide and show control points
+    - button says SHOW - exit hide mode, see the points
+    - button says HIDE - hide the points
+
+- Connect Curves - connect all close curves together - curve is considered 'close' when its end is 'point size' away
+                    from the beginning of the next curve
+
+- Remove Background - remove background you set, if there is no background nothing happens
+
+- Duplicate Point Mode/Add Point Mode - toggle to add points in any place on Bezier Curve
+                - buttons says DUPLICATE PONT MODE - you are in ADD POINT MODE just create Curves normally
+                - button says ADD POINT MODE - you can only duplicate points on curves, no drawing ;(
+
+- Make Bezier - connects all 'free points' to one adjustable curve
+
+
+MOUSE CLICK FUNCTIONALITIES
+- LEFT CLICK
+    - curve extending/adding free points/deleting (functionality depends on MODE)
+    (REMEMBER) - when delete mode is on you CAN'T draw, please deselect Delete Button
+- RIGHT CLICK
+    - control points moving/free points moving/curve selecting/curve deselecting
+
+TO CREATE A CURVE AND PLAY:
+- EXIT delete mode or any other mode
+- if curve is selected it will extend it
+- if curve is not selected it will just add a 'free point' (red dot)
+
+
+CREDITS:
+- Font Created by Copying of one found on Pinterest - https://pl.pinterest.com/pin/403846291594771476/visual-search/?x=16&y=16&w=414&h=540&cropSource=6&surfaceType=flashlight
+- All Build using tk inter - https://docs.python.org/3/library/tkinter.html
