@@ -15,15 +15,15 @@ The editor allows users to:
 - Import previous projects
 
 <p align="center">
-  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/editor.png" width="400px" height="400px"/>
+  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/demo/Screenshot%202024-02-21%20at%2009.03.43.png" width="800px" height="500px"/>
 </p>
 
-## Example of Letter 'A'
+## Example of Letter 'G'
 
 Here's an example where the letter 'A' is created using just 6 Bezier Curves. The points that create each Bezier Curve are visible as small colorful dots.
 
 <p align="center">
-  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/points.png" style="width: 400px; height: 400px;"/>
+  <img src="https://github.com/porfinogeneta/FontsMaker/blob/master/demo/Screenshot%202024-02-21%20at%2009.04.26.png" style="width: 800px; height: 500px;"/>
 </p>
 
 # Manual
@@ -48,7 +48,7 @@ Here's an example where the letter 'A' is created using just 6 Bezier Curves. Th
     - Button says ADD POINT MODE: You can only duplicate points on curves, no drawing ;(
 - **Make Bezier:** Connects all 'free points' to one adjustable curve
 
-### MOUSE CLICK FUNCTIONALITIES
+### Mouse Click Functionalities
 
 - **LEFT CLICK:**
     - Curve extending/adding free points/deleting (functionality depends on MODE)
@@ -56,13 +56,13 @@ Here's an example where the letter 'A' is created using just 6 Bezier Curves. Th
 - **RIGHT CLICK:**
     - Control points moving/free points moving/curve selecting/curve deselecting
 
-### TO CREATE A CURVE AND PLAY:
+### Create curve and play:
 
 - EXIT delete mode or any other mode
 - If curve is selected, it will extend it
 - If curve is not selected, it will just add a 'free point' (red dot)
 
-## CREDITS
+## Credits
 
 - Font Created by Copying of one found on Pinterest - [Pinterest Link](https://pl.pinterest.com/pin/403846291594771476/visual-search/?x=16&y=16&w=414&h=540&cropSource=6&surfaceType=flashlight)
 - All Build using tk inter - [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
