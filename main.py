@@ -296,6 +296,7 @@ class FontsDesigner:
 
                     # print(f"dupli: {self.curves[self.current_curve_tag]}")
                     valid_controls = self.draw_points(new_control_points)
+                    self.canvas.itemconfig(f"##{self.current_curve_tag}", fill="lightblue")
                     # update control points
                     self.curves[self.current_curve_tag] = valid_controls
                     self.draw_bezier()
